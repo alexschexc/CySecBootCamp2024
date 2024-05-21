@@ -1,5 +1,5 @@
 Alex Schexnayder
-hi
+
 
 Scenario: A Wild USB Appears!
 Suppose you found a USB drive laying on the ground. How much of a threat could 
