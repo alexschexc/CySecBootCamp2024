@@ -1,0 +1,20 @@
+Alex Schexnayder
+
+
+Scenario: A Wild USB Appears!
+Suppose you found a USB drive laying on the ground. How much of a threat could 
+that really be?
+
+In groups, consider the following scenario and questions:
+
+When plugged into a computer, the USB drive immediately executes running code.
+
+How is a USB drive able to do this?
+the USB drive's firmware can be altered to function as a Human Input Devide (HID) and then prepackaged with a code payload called a "ducky script" which then can execute instructions on the target machine.
+
+Why can't our computer stop the drive from running?
+HIDs are by default trusted devices ALWAYS and thus circumvent any kind of protections.
+
+How might we defend against USBs like this?
+The best way is to just noot plug in the USB ever. The next best thing to do would be to setup a virtual machine that will serve as a sandbox for potential code execution from a bad usb/ rubber ducky.
+
